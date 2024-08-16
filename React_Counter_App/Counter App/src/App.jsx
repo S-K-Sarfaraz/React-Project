@@ -7,15 +7,15 @@ function App(){
   function addValue(){
     if(counter <20) {
       counter= counter+1
+      setCounter(counter)
     }
-    setCounter(counter)
   }
 
   function subValue (){
     if(counter>0){
       counter = counter-1
+      setCounter(counter)
     }
-    setCounter(counter)
   }
 
   
